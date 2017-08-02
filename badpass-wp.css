@@ -1,0 +1,21 @@
+#badpass_wp_warning {
+	background-color: #ffff99;
+	color: #000000;
+	left: 0px;
+	padding: 6px 20px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 100;
+}
+
+#badpass_wp_warning_withadminbar {
+	background-color: #ffff99;
+	color: #000000;
+	left: 0px;
+	padding: 6px 20px;
+	position: fixed;
+	top: 28px; /* Places the warning immediately below the WordPress admin bar */
+	width: 100%;
+	z-index: 100;
+}
